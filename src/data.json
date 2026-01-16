@@ -1,0 +1,1221 @@
+{
+    "General Dataset Information": {
+        "Total Notebooks": 2100,
+        "Total Views": 164786462,
+        "Total Votes": 18616691,
+        "Average Views Per Notebook": 78469.7438095238,
+        "Average Votes Per Notebook": 8865.090952380953,
+        "Number of Unique Authors": 972,
+        "Number of Unique Languages": 4,
+        "Total Runtime Seconds": 3312887.0999999996,
+        "Average Runtime Seconds Per Notebook": 1588.9146762589926,
+        "Notebooks with Runtime Info": 2085,
+        "Data Scraped From": "2025-11-27 14:59:40",
+        "Data Scraped Until": "2025-11-27 18:24:08"
+    },
+    "Most Common Tags": {
+        "No tags": 637,
+        "GPU": 380,
+        "pandas": 319,
+        "Beginner": 309,
+        "Data Visualization": 288,
+        "Exploratory Data Analysis": 256,
+        "NumPy": 214,
+        "Matplotlib": 214,
+        "Deep Learning": 178,
+        "Classification": 141,
+        "Seaborn": 135,
+        "Feature Engineering": 94,
+        "CNN": 92,
+        "TensorFlow": 69,
+        "Computer Vision": 68,
+        "NLP": 65,
+        "Data Cleaning": 65,
+        "Image": 64,
+        "Learn": 61,
+        "Programming": 60
+    },
+    "Notebook Language Counts": {
+        "Python": 1993,
+        "R": 38,
+        "Rmarkdown": 35,
+        "No notebook_language": 34
+    },
+    "Most Common Input Data Sources": {
+        "train.csv": 80,
+        "sample_submission.csv": 71,
+        "test.csv": 68,
+        "Titanic - Machine Learning from Disaster": 22,
+        "gender_submission.csv": 18,
+        "test": 17,
+        "train": 14,
+        "Big Data Certification KR": 12,
+        "House Prices - Advanced Regression Techniques": 10,
+        "data_description.txt": 10
+    },
+    "Accelerator Counts": {
+        "No accelerator": 1545,
+        "GPU P100": 454,
+        "GPU T4 x2": 66,
+        "TPU v3-8 (Deprecated)": 22,
+        "GPU L4 x4": 7,
+        "TPU VM v3-8": 6
+    },
+    "Notebooks Per Year (Top 10)": {},
+    "Correlation Matrix (Votes, Views, Comments)": {
+        "votes": {
+            "votes": 1.0,
+            "views": 0.010308054810870722,
+            "comments_count": 0.018069159455499386
+        },
+        "views": {
+            "votes": 0.010308054810870722,
+            "views": 1.0,
+            "comments_count": 0.40911132153313134
+        },
+        "comments_count": {
+            "votes": 0.018069159455499386,
+            "views": 0.40911132153313134,
+            "comments_count": 1.0
+        }
+    },
+    "Medal Counts": {
+        "Gold Medals": 1289,
+        "Silver Medals": 424,
+        "Bronze Medals": 235
+    },
+    "Runtime Metrics Per Language": [
+        {
+            "notebook_language": "No notebook_language",
+            "total_runtime_seconds": 60280.3,
+            "average_runtime_seconds": 3014.0150000000003,
+            "notebooks_with_runtime_info": 20
+        },
+        {
+            "notebook_language": "Python",
+            "total_runtime_seconds": 3221205.7,
+            "average_runtime_seconds": 1617.0711345381526,
+            "notebooks_with_runtime_info": 1992
+        },
+        {
+            "notebook_language": "R",
+            "total_runtime_seconds": 9126.199999999999,
+            "average_runtime_seconds": 240.16315789473683,
+            "notebooks_with_runtime_info": 38
+        },
+        {
+            "notebook_language": "Rmarkdown",
+            "total_runtime_seconds": 22274.899999999998,
+            "average_runtime_seconds": 636.4257142857142,
+            "notebooks_with_runtime_info": 35
+        }
+    ],
+    "Input Size Metrics": {
+        "Total Input Size (MB)": 5024715.505976295,
+        "Average Input Size (MB)": 2392.7216695125217,
+        "Notebooks with Input Size Info": 2100
+    },
+    "Output Size Metrics": {
+        "Total Output Size (MB)": 272626.89833206177,
+        "Average Output Size (MB)": 129.82233253907702,
+        "Notebooks with Output Size Info": 2100
+    },
+    "Top Notebooks by Engagement": {
+        "top_10_by_votes": [
+            {
+                "notebook_title": "Exercise: Syntax, Variables, and Numbers",
+                "author_name": "ColinMorris",
+                "votes": 982872,
+                "views": 17416,
+                "comments_count": 27,
+                "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-syntax-variables-and-numbers"
+            },
+            {
+                "notebook_title": "Exercise: Explore Your Data",
+                "author_name": "DanB",
+                "votes": 745054,
+                "views": 12421,
+                "comments_count": 0,
+                "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-explore-your-data"
+            },
+            {
+                "notebook_title": "Exercise: Functions and Getting Help",
+                "author_name": "ColinMorris",
+                "votes": 593744,
+                "views": 7345,
+                "comments_count": 7,
+                "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-functions-and-getting-help"
+            },
+            {
+                "notebook_title": "Exercise: Booleans and Conditionals",
+                "author_name": "ColinMorris",
+                "votes": 490574,
+                "views": 9255,
+                "comments_count": 8,
+                "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-booleans-and-conditionals"
+            },
+            {
+                "notebook_title": "Exercise: Your First Machine Learning Model",
+                "author_name": "DanB",
+                "votes": 488417,
+                "views": 12465,
+                "comments_count": 2,
+                "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-your-first-machine-learning-model"
+            },
+            {
+                "notebook_title": "Exercise: Creating, Reading and Writing",
+                "author_name": "Aleksey Bilogur",
+                "votes": 481583,
+                "views": 109582,
+                "comments_count": 53,
+                "notebook_url": "https://www.kaggle.com/code/residentmario/exercise-creating-reading-and-writing"
+            },
+            {
+                "notebook_title": "Exercise: Model Validation",
+                "author_name": "DanB",
+                "votes": 453634,
+                "views": 4724,
+                "comments_count": 0,
+                "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-model-validation"
+            },
+            {
+                "notebook_title": "Exercise: Arithmetic and Variables",
+                "author_name": "Alexis Cook",
+                "votes": 448193,
+                "views": 12709,
+                "comments_count": 5,
+                "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-arithmetic-and-variables"
+            },
+            {
+                "notebook_title": "Exercise: Lists",
+                "author_name": "ColinMorris",
+                "votes": 417185,
+                "views": 5810,
+                "comments_count": 0,
+                "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-lists"
+            },
+            {
+                "notebook_title": "Exercise: Underfitting and Overfitting",
+                "author_name": "DanB",
+                "votes": 401911,
+                "views": 5329,
+                "comments_count": 0,
+                "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-underfitting-and-overfitting"
+            }
+        ],
+        "top_10_by_views": [
+            {
+                "notebook_title": "Comprehensive data exploration with Python",
+                "author_name": "Pedro Marcelino, PhD",
+                "votes": 33189,
+                "views": 7576255,
+                "comments_count": 2066,
+                "notebook_url": "https://www.kaggle.com/code/pmarcelino/comprehensive-data-exploration-with-python"
+            },
+            {
+                "notebook_title": "Titanic Tutorial",
+                "author_name": "Alexis Cook",
+                "votes": 54196,
+                "views": 3014548,
+                "comments_count": 30485,
+                "notebook_url": "https://www.kaggle.com/code/alexisbcook/titanic-tutorial"
+            },
+            {
+                "notebook_title": "Titanic Data Science Solutions",
+                "author_name": "Manav Sehgal",
+                "votes": 39561,
+                "views": 1850191,
+                "comments_count": 2619,
+                "notebook_url": "https://www.kaggle.com/code/startupsci/titanic-data-science-solutions"
+            },
+            {
+                "notebook_title": "YOLOv5",
+                "author_name": "Glenn Jocher",
+                "votes": 4247,
+                "views": 1304288,
+                "comments_count": 29,
+                "notebook_url": "https://www.kaggle.com/code/glennjocherultralytics/yolov5"
+            },
+            {
+                "notebook_title": "Credit Fraud || Dealing with Imbalanced Datasets",
+                "author_name": "Janio Martinez Bachmann",
+                "votes": 14598,
+                "views": 1033088,
+                "comments_count": 674,
+                "notebook_url": "https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets"
+            },
+            {
+                "notebook_title": "Dive into dplyr (tutorial #1)",
+                "author_name": "Jesse Mostipak",
+                "votes": 356647,
+                "views": 951850,
+                "comments_count": 253,
+                "notebook_url": "https://www.kaggle.com/code/jessemostipak/dive-into-dplyr-tutorial-1"
+            },
+            {
+                "notebook_title": "Stock Market Analysis  + Prediction using LSTM",
+                "author_name": "Fares Sayah",
+                "votes": 12699,
+                "views": 855186,
+                "comments_count": 298,
+                "notebook_url": "https://www.kaggle.com/code/faressayah/stock-market-analysis-prediction-using-lstm"
+            },
+            {
+                "notebook_title": "Data ScienceTutorial for Beginners",
+                "author_name": "DATAI",
+                "votes": 20091,
+                "views": 796669,
+                "comments_count": 1260,
+                "notebook_url": "https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners"
+            },
+            {
+                "notebook_title": "Datasets for regression analysis",
+                "author_name": "Rachael Tatman",
+                "votes": 2403,
+                "views": 778694,
+                "comments_count": 47,
+                "notebook_url": "https://www.kaggle.com/code/rtatman/datasets-for-regression-analysis"
+            },
+            {
+                "notebook_title": "Exploring Survival on the Titanic",
+                "author_name": "Meg Risdal",
+                "votes": 10902,
+                "views": 756100,
+                "comments_count": 1080,
+                "notebook_url": "https://www.kaggle.com/code/mrisdal/exploring-survival-on-the-titanic"
+            }
+        ],
+        "top_10_by_comments": [
+            {
+                "notebook_title": "Titanic Tutorial",
+                "author_name": "Alexis Cook",
+                "votes": 54196,
+                "views": 3014548,
+                "comments_count": 30485,
+                "notebook_url": "https://www.kaggle.com/code/alexisbcook/titanic-tutorial"
+            },
+            {
+                "notebook_title": "Getting Started with Kaggle",
+                "author_name": "Alexis Cook",
+                "votes": 4101,
+                "views": 326654,
+                "comments_count": 4378,
+                "notebook_url": "https://www.kaggle.com/code/alexisbcook/getting-started-with-kaggle"
+            },
+            {
+                "notebook_title": "Titanic Data Science Solutions",
+                "author_name": "Manav Sehgal",
+                "votes": 39561,
+                "views": 1850191,
+                "comments_count": 2619,
+                "notebook_url": "https://www.kaggle.com/code/startupsci/titanic-data-science-solutions"
+            },
+            {
+                "notebook_title": "Comprehensive data exploration with Python",
+                "author_name": "Pedro Marcelino, PhD",
+                "votes": 33189,
+                "views": 7576255,
+                "comments_count": 2066,
+                "notebook_url": "https://www.kaggle.com/code/pmarcelino/comprehensive-data-exploration-with-python"
+            },
+            {
+                "notebook_title": "Data ScienceTutorial for Beginners",
+                "author_name": "DATAI",
+                "votes": 20091,
+                "views": 796669,
+                "comments_count": 1260,
+                "notebook_url": "https://www.kaggle.com/code/kanncaa1/data-sciencetutorial-for-beginners"
+            },
+            {
+                "notebook_title": "Stacked Regressions : Top 4% on LeaderBoard",
+                "author_name": "Serigne",
+                "votes": 14252,
+                "views": 690011,
+                "comments_count": 1140,
+                "notebook_url": "https://www.kaggle.com/code/serigne/stacked-regressions-top-4-on-leaderboard"
+            },
+            {
+                "notebook_title": "Introduction to CNN Keras - 0.997 (top 6%)",
+                "author_name": "Yassine Ghouzam",
+                "votes": 16350,
+                "views": 555459,
+                "comments_count": 1090,
+                "notebook_url": "https://www.kaggle.com/code/yassineghouzam/introduction-to-cnn-keras-0-997-top-6"
+            },
+            {
+                "notebook_title": "Exploring Survival on the Titanic",
+                "author_name": "Meg Risdal",
+                "votes": 10902,
+                "views": 756100,
+                "comments_count": 1080,
+                "notebook_url": "https://www.kaggle.com/code/mrisdal/exploring-survival-on-the-titanic"
+            },
+            {
+                "notebook_title": "Introduction to Ensembling/Stacking in Python",
+                "author_name": "Anisotropic",
+                "votes": 15407,
+                "views": 755769,
+                "comments_count": 1069,
+                "notebook_url": "https://www.kaggle.com/code/arthurtok/introduction-to-ensembling-stacking-in-python"
+            },
+            {
+                "notebook_title": "Day 1a - From Prompt to Action",
+                "author_name": "Kaggle 5 Days of AI",
+                "votes": 99506,
+                "views": 621752,
+                "comments_count": 902,
+                "notebook_url": "https://www.kaggle.com/code/kaggle5daysofai/day-1a-from-prompt-to-action"
+            }
+        ]
+    },
+    "Top Niche Topics": {
+        "Exercise": {
+            "engagement_rate": 122885.772,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Explore Your Data",
+                    "author_name": "DanB",
+                    "votes": 745054,
+                    "views": 12421,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-explore-your-data"
+                },
+                {
+                    "notebook_title": "Exercise: Underfitting and Overfitting",
+                    "author_name": "DanB",
+                    "votes": 401911,
+                    "views": 5329,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-underfitting-and-overfitting"
+                },
+                {
+                    "notebook_title": "Exercise: Creating Features",
+                    "author_name": "Ryan Holbrook",
+                    "votes": 47476,
+                    "views": 1598,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/ryanholbrook/exercise-creating-features"
+                },
+                {
+                    "notebook_title": "Exercise: Data Augmentation",
+                    "author_name": "DanB",
+                    "votes": 15730,
+                    "views": 13609,
+                    "comments_count": 5,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-data-augmentation"
+                },
+                {
+                    "notebook_title": "Exercise: Basic Data Exploration",
+                    "author_name": "DanB",
+                    "votes": 12084,
+                    "views": 4044,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-basic-data-exploration"
+                },
+                {
+                    "notebook_title": "Exercise: Basic Data Exploration Daily",
+                    "author_name": "DanB",
+                    "votes": 1404,
+                    "views": 9451,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/exercise-basic-data-exploration-daily"
+                },
+                {
+                    "notebook_title": "Bellabeat - Case study",
+                    "author_name": "Julen Aranguren",
+                    "votes": 652,
+                    "views": 72996,
+                    "comments_count": 50,
+                    "notebook_url": "https://www.kaggle.com/code/julenaranguren/bellabeat-case-study"
+                },
+                {
+                    "notebook_title": "Learn OpenCV by Examples - with Python",
+                    "author_name": "Bulent Siyah",
+                    "votes": 852,
+                    "views": 47181,
+                    "comments_count": 64,
+                    "notebook_url": "https://www.kaggle.com/code/bulentsiyah/learn-opencv-by-examples-with-python"
+                },
+                {
+                    "notebook_title": "EDA-Pizza Restaurant Sales",
+                    "author_name": "Melike Dilekci",
+                    "votes": 724,
+                    "views": 25644,
+                    "comments_count": 24,
+                    "notebook_url": "https://www.kaggle.com/code/melikedilekci/eda-pizza-restaurant-sales"
+                },
+                {
+                    "notebook_title": "Heart Attack Analysis & Prediction",
+                    "author_name": "DATAI",
+                    "votes": 639,
+                    "views": 26099,
+                    "comments_count": 5,
+                    "notebook_url": "https://www.kaggle.com/code/kanncaa1/heart-attack-analysis-prediction"
+                }
+            ]
+        },
+        "Music": {
+            "engagement_rate": 60536.105,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Strings and Dictionaries",
+                    "author_name": "ColinMorris",
+                    "votes": 348420,
+                    "views": 5942,
+                    "comments_count": 1,
+                    "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-strings-and-dictionaries"
+                },
+                {
+                    "notebook_title": "Music Recommendation System using Spotify Dataset",
+                    "author_name": "Vatsal Mavani",
+                    "votes": 3948,
+                    "views": 290916,
+                    "comments_count": 84,
+                    "notebook_url": "https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset"
+                },
+                {
+                    "notebook_title": "Music Generation: LSTM ",
+                    "author_name": "Karnika Kapoor",
+                    "votes": 1794,
+                    "views": 77207,
+                    "comments_count": 72,
+                    "notebook_url": "https://www.kaggle.com/code/karnikakapoor/music-generation-lstm"
+                },
+                {
+                    "notebook_title": "Work w/ Audio Data : Visualise, Classify, Recommend",
+                    "author_name": "Andrada",
+                    "votes": 1198,
+                    "views": 74955,
+                    "comments_count": 21,
+                    "notebook_url": "https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend"
+                },
+                {
+                    "notebook_title": "Line Charts",
+                    "author_name": "No author_name",
+                    "votes": 1726,
+                    "views": 0,
+                    "comments_count": 19,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/line-charts"
+                },
+                {
+                    "notebook_title": "Extensive Analysis - EDA + FE + Modelling",
+                    "author_name": "Prashant Banerjee",
+                    "votes": 786,
+                    "views": 60543,
+                    "comments_count": 52,
+                    "notebook_url": "https://www.kaggle.com/code/prashant111/extensive-analysis-eda-fe-modelling"
+                }
+            ]
+        },
+        "Sports": {
+            "engagement_rate": 56295.362499999996,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Lists",
+                    "author_name": "ColinMorris",
+                    "votes": 417185,
+                    "views": 5810,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-lists"
+                },
+                {
+                    "notebook_title": "Exercise: Forecasting With Machine Learning",
+                    "author_name": "Ryan Holbrook",
+                    "votes": 20335,
+                    "views": 16260,
+                    "comments_count": 1,
+                    "notebook_url": "https://www.kaggle.com/code/ryanholbrook/exercise-forecasting-with-machine-learning"
+                },
+                {
+                    "notebook_title": "Exercise: Lists Daily",
+                    "author_name": "ColinMorris",
+                    "votes": 5176,
+                    "views": 2669,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-lists-daily"
+                },
+                {
+                    "notebook_title": "NFL Big Data Bowl Official Starter Notebook",
+                    "author_name": "DJ Sterling",
+                    "votes": 1256,
+                    "views": 54377,
+                    "comments_count": 34,
+                    "notebook_url": "https://www.kaggle.com/code/dster/nfl-big-data-bowl-official-starter-notebook"
+                },
+                {
+                    "notebook_title": "Predicting FIFA 2022 World Cup with ML",
+                    "author_name": "Sergio Pessoa",
+                    "votes": 838,
+                    "views": 61887,
+                    "comments_count": 34,
+                    "notebook_url": "https://www.kaggle.com/code/sslp23/predicting-fifa-2022-world-cup-with-ml"
+                },
+                {
+                    "notebook_title": "Let's discover more about the Olympic Games!",
+                    "author_name": "Marco Giuseppe de Pinto",
+                    "votes": 770,
+                    "views": 56468,
+                    "comments_count": 109,
+                    "notebook_url": "https://www.kaggle.com/code/marcogdepinto/let-s-discover-more-about-the-olympic-games"
+                },
+                {
+                    "notebook_title": "NBA Height and Weight Analysis",
+                    "author_name": "Justinas Cirtautas",
+                    "votes": 868,
+                    "views": 51951,
+                    "comments_count": 25,
+                    "notebook_url": "https://www.kaggle.com/code/justinas/nba-height-and-weight-analysis"
+                },
+                {
+                    "notebook_title": "Predict Future Sales Top 11 Solution",
+                    "author_name": "szhou42",
+                    "votes": 723,
+                    "views": 49868,
+                    "comments_count": 16,
+                    "notebook_url": "https://www.kaggle.com/code/szhou42/predict-future-sales-top-11-solution"
+                }
+            ]
+        },
+        "Games": {
+            "engagement_rate": 44277.46076923077,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Booleans and Conditionals",
+                    "author_name": "ColinMorris",
+                    "votes": 490574,
+                    "views": 9255,
+                    "comments_count": 8,
+                    "notebook_url": "https://www.kaggle.com/code/colinmorris/exercise-booleans-and-conditionals"
+                },
+                {
+                    "notebook_title": "Exercise: Play the Game",
+                    "author_name": "Alexis Cook",
+                    "votes": 36096,
+                    "views": 6957,
+                    "comments_count": 5,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-play-the-game"
+                },
+                {
+                    "notebook_title": "Data Cleaning Challenge: Handling missing values",
+                    "author_name": "Rachael Tatman",
+                    "votes": 14993,
+                    "views": 356745,
+                    "comments_count": 388,
+                    "notebook_url": "https://www.kaggle.com/code/rtatman/data-cleaning-challenge-handling-missing-values"
+                },
+                {
+                    "notebook_title": "Data Cleaning Challenge: Scale and Normalize Data",
+                    "author_name": "Rachael Tatman",
+                    "votes": 6904,
+                    "views": 252284,
+                    "comments_count": 259,
+                    "notebook_url": "https://www.kaggle.com/code/rtatman/data-cleaning-challenge-scale-and-normalize-data"
+                },
+                {
+                    "notebook_title": "Method chaining workbook",
+                    "author_name": "Aleksey Bilogur",
+                    "votes": 5310,
+                    "views": 12818,
+                    "comments_count": 18,
+                    "notebook_url": "https://www.kaggle.com/code/residentmario/method-chaining-workbook"
+                },
+                {
+                    "notebook_title": "Data Cleaning Challenge: Inconsistent Data Entry",
+                    "author_name": "Rachael Tatman",
+                    "votes": 3290,
+                    "views": 62141,
+                    "comments_count": 121,
+                    "notebook_url": "https://www.kaggle.com/code/rtatman/data-cleaning-challenge-inconsistent-data-entry"
+                },
+                {
+                    "notebook_title": "Elo world",
+                    "author_name": "FabienDaniel",
+                    "votes": 1500,
+                    "views": 69050,
+                    "comments_count": 75,
+                    "notebook_url": "https://www.kaggle.com/code/fabiendaniel/elo-world"
+                },
+                {
+                    "notebook_title": "Soccer World Cup 2018 Winner",
+                    "author_name": "Dr. James Bond",
+                    "votes": 877,
+                    "views": 92978,
+                    "comments_count": 59,
+                    "notebook_url": "https://www.kaggle.com/code/agostontorok/soccer-world-cup-2018-winner"
+                },
+                {
+                    "notebook_title": "NFL Big Data Bowl Official Starter Notebook",
+                    "author_name": "DJ Sterling",
+                    "votes": 1256,
+                    "views": 54377,
+                    "comments_count": 34,
+                    "notebook_url": "https://www.kaggle.com/code/dster/nfl-big-data-bowl-official-starter-notebook"
+                },
+                {
+                    "notebook_title": "Learn Pandas with Pokemons",
+                    "author_name": "Ashwini Swain",
+                    "votes": 796,
+                    "views": 60747,
+                    "comments_count": 38,
+                    "notebook_url": "https://www.kaggle.com/code/ash316/learn-pandas-with-pokemons"
+                },
+                {
+                    "notebook_title": "Play the Game",
+                    "author_name": "No author_name",
+                    "votes": 1191,
+                    "views": 0,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/play-the-game"
+                },
+                {
+                    "notebook_title": "Intermediate visualization tutorial using Plotly",
+                    "author_name": "Siddharth Yadav",
+                    "votes": 644,
+                    "views": 37397,
+                    "comments_count": 60,
+                    "notebook_url": "https://www.kaggle.com/code/thebrownviking20/intermediate-visualization-tutorial-using-plotly"
+                },
+                {
+                    "notebook_title": "Rock Paper Scissors - Agents Comparison",
+                    "author_name": "Yaroslav Isaienkov",
+                    "votes": 613,
+                    "views": 28950,
+                    "comments_count": 61,
+                    "notebook_url": "https://www.kaggle.com/code/ihelon/rock-paper-scissors-agents-comparison"
+                }
+            ]
+        },
+        "Currencies and Foreign Exchange": {
+            "engagement_rate": 25561.29,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Data Leakage",
+                    "author_name": "Alexis Cook",
+                    "votes": 121035,
+                    "views": 10442,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-data-leakage"
+                },
+                {
+                    "notebook_title": "Tutorial to the G-Research Crypto Competition",
+                    "author_name": "Carlos Stein N Brito",
+                    "votes": 2329,
+                    "views": 106979,
+                    "comments_count": 88,
+                    "notebook_url": "https://www.kaggle.com/code/cstein06/tutorial-to-the-g-research-crypto-competition"
+                },
+                {
+                    "notebook_title": "Bitcoin Time Series Forecasting",
+                    "author_name": "Some Aditya Mandal",
+                    "votes": 791,
+                    "views": 69054,
+                    "comments_count": 24,
+                    "notebook_url": "https://www.kaggle.com/code/someadityamandal/bitcoin-time-series-forecasting"
+                },
+                {
+                    "notebook_title": "\ud83e\ude99Crypto Price Interactive Dashboard(Daily Update)",
+                    "author_name": "Sanskar Hasija",
+                    "votes": 589,
+                    "views": 23770,
+                    "comments_count": 106,
+                    "notebook_url": "https://www.kaggle.com/code/odins0n/crypto-price-interactive-dashboard-daily-update"
+                },
+                {
+                    "notebook_title": "As & With",
+                    "author_name": "No author_name",
+                    "votes": 734,
+                    "views": 0,
+                    "comments_count": 8,
+                    "notebook_url": "https://www.kaggle.com/code/dansbecker/as-with"
+                }
+            ]
+        },
+        "Food": {
+            "engagement_rate": 23945.834,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Scatter Plots",
+                    "author_name": "Alexis Cook",
+                    "votes": 113582,
+                    "views": 4757,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-scatter-plots"
+                },
+                {
+                    "notebook_title": "Fruit Classification: PCA, SVM, KNN, Decision Tree",
+                    "author_name": "Walter Maffione",
+                    "votes": 1186,
+                    "views": 88033,
+                    "comments_count": 15,
+                    "notebook_url": "https://www.kaggle.com/code/waltermaffy/fruit-classification-pca-svm-knn-decision-tree"
+                },
+                {
+                    "notebook_title": "Price of Avocados || Pattern Recognition Analysis",
+                    "author_name": "Janio Martinez Bachmann",
+                    "votes": 829,
+                    "views": 79876,
+                    "comments_count": 63,
+                    "notebook_url": "https://www.kaggle.com/code/janiobachmann/price-of-avocados-pattern-recognition-analysis"
+                },
+                {
+                    "notebook_title": "Coffee Shop Sales",
+                    "author_name": "ahmed abbas",
+                    "votes": 947,
+                    "views": 41450,
+                    "comments_count": 32,
+                    "notebook_url": "https://www.kaggle.com/code/ahmedabbas757/coffee-shop-sales"
+                },
+                {
+                    "notebook_title": "Fruit and Vegetable Classification",
+                    "author_name": "Datalira",
+                    "votes": 603,
+                    "views": 32101,
+                    "comments_count": 10,
+                    "notebook_url": "https://www.kaggle.com/code/databeru/fruit-and-vegetable-classification"
+                }
+            ]
+        },
+        "Video Games": {
+            "engagement_rate": 15678.73888888889,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Bar Charts and Heatmaps",
+                    "author_name": "Alexis Cook",
+                    "votes": 124391,
+                    "views": 5358,
+                    "comments_count": 1,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-bar-charts-and-heatmaps"
+                },
+                {
+                    "notebook_title": "Video games sales analysis and visualization",
+                    "author_name": "nilim",
+                    "votes": 2702,
+                    "views": 118935,
+                    "comments_count": 47,
+                    "notebook_url": "https://www.kaggle.com/code/snanilim/video-games-sales-analysis-and-visualization"
+                },
+                {
+                    "notebook_title": "EDA is Fun!",
+                    "author_name": "Dimitrios Effrosynidis",
+                    "votes": 2174,
+                    "views": 110318,
+                    "comments_count": 194,
+                    "notebook_url": "https://www.kaggle.com/code/deffro/eda-is-fun"
+                },
+                {
+                    "notebook_title": "KNN for Classification using Scikit-learn",
+                    "author_name": "Amol Bhivarkar",
+                    "votes": 1037,
+                    "views": 118903,
+                    "comments_count": 27,
+                    "notebook_url": "https://www.kaggle.com/code/amolbhivarkar/knn-for-classification-using-scikit-learn"
+                },
+                {
+                    "notebook_title": "Video Game Sales Exploratory Data Analysis",
+                    "author_name": "Gulsah Demiryurek",
+                    "votes": 959,
+                    "views": 63547,
+                    "comments_count": 28,
+                    "notebook_url": "https://www.kaggle.com/code/gulsahdemiryurek/video-game-sales-exploratory-data-analysis"
+                },
+                {
+                    "notebook_title": "FIFA DATA ANALYSIS & VISUALIZATION",
+                    "author_name": "Ekrem Bayar",
+                    "votes": 753,
+                    "views": 70801,
+                    "comments_count": 65,
+                    "notebook_url": "https://www.kaggle.com/code/ekrembayar/fifa-data-analysis-visualization"
+                },
+                {
+                    "notebook_title": "Learn Pandas with Pokemons",
+                    "author_name": "Ashwini Swain",
+                    "votes": 796,
+                    "views": 60747,
+                    "comments_count": 38,
+                    "notebook_url": "https://www.kaggle.com/code/ash316/learn-pandas-with-pokemons"
+                },
+                {
+                    "notebook_title": "Visualization: Bokeh Tutorial Part 1",
+                    "author_name": "DATAI",
+                    "votes": 645,
+                    "views": 61697,
+                    "comments_count": 12,
+                    "notebook_url": "https://www.kaggle.com/code/kanncaa1/visualization-bokeh-tutorial-part-1"
+                },
+                {
+                    "notebook_title": "PUBG Data Exploration + RF (+ Funny GIFs)",
+                    "author_name": "Carlo Lepelaars",
+                    "votes": 587,
+                    "views": 42559,
+                    "comments_count": 124,
+                    "notebook_url": "https://www.kaggle.com/code/carlolepelaars/pubg-data-exploration-rf-funny-gifs"
+                }
+            ]
+        },
+        "SciPy": {
+            "engagement_rate": 15070.046428571428,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Comprehensive data exploration with Python",
+                    "author_name": "Pedro Marcelino, PhD",
+                    "votes": 33189,
+                    "views": 7576255,
+                    "comments_count": 2066,
+                    "notebook_url": "https://www.kaggle.com/code/pmarcelino/comprehensive-data-exploration-with-python"
+                },
+                {
+                    "notebook_title": "Exercise: Scaling and Normalization",
+                    "author_name": "Alexis Cook",
+                    "votes": 67016,
+                    "views": 6380,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-scaling-and-normalization"
+                },
+                {
+                    "notebook_title": "Recommender Systems in Python 101",
+                    "author_name": "Gabriel Moreira",
+                    "votes": 2787,
+                    "views": 406719,
+                    "comments_count": 54,
+                    "notebook_url": "https://www.kaggle.com/code/gspmoreira/recommender-systems-in-python-101"
+                },
+                {
+                    "notebook_title": "Linear Regression Tutorial",
+                    "author_name": "Sudhir Kumar",
+                    "votes": 2869,
+                    "views": 300031,
+                    "comments_count": 44,
+                    "notebook_url": "https://www.kaggle.com/code/sudhirnl7/linear-regression-tutorial"
+                },
+                {
+                    "notebook_title": "#1 House Prices Solution [top 1%]",
+                    "author_name": "Nanashi",
+                    "votes": 2520,
+                    "views": 148578,
+                    "comments_count": 137,
+                    "notebook_url": "https://www.kaggle.com/code/jesucristo/1-house-prices-solution-top-1"
+                },
+                {
+                    "notebook_title": " Lending Club Loan  Defaulters \u200d Prediction",
+                    "author_name": "Fares Sayah",
+                    "votes": 1647,
+                    "views": 139141,
+                    "comments_count": 55,
+                    "notebook_url": "https://www.kaggle.com/code/faressayah/lending-club-loan-defaulters-prediction"
+                },
+                {
+                    "notebook_title": "Extensive EDA and Modeling XGB Hyperopt",
+                    "author_name": "Leonardo Ferreira",
+                    "votes": 1896,
+                    "views": 96051,
+                    "comments_count": 189,
+                    "notebook_url": "https://www.kaggle.com/code/kabure/extensive-eda-and-modeling-xgb-hyperopt"
+                },
+                {
+                    "notebook_title": "APTOS 2019: DenseNet Keras Starter",
+                    "author_name": "xhlulu",
+                    "votes": 1256,
+                    "views": 50875,
+                    "comments_count": 80,
+                    "notebook_url": "https://www.kaggle.com/code/xhlulu/aptos-2019-densenet-keras-starter"
+                },
+                {
+                    "notebook_title": "Mask and social distancing detection using VGG19",
+                    "author_name": "Nagesh Singh Chauhan",
+                    "votes": 1086,
+                    "views": 47369,
+                    "comments_count": 88,
+                    "notebook_url": "https://www.kaggle.com/code/nageshsingh/mask-and-social-distancing-detection-using-vgg19"
+                },
+                {
+                    "notebook_title": "Bank customer segmentation",
+                    "author_name": "Paulina Kwiatkowska",
+                    "votes": 619,
+                    "views": 77860,
+                    "comments_count": 20,
+                    "notebook_url": "https://www.kaggle.com/code/paulinan/bank-customer-segmentation"
+                },
+                {
+                    "notebook_title": "NBA Height and Weight Analysis",
+                    "author_name": "Justinas Cirtautas",
+                    "votes": 868,
+                    "views": 51951,
+                    "comments_count": 25,
+                    "notebook_url": "https://www.kaggle.com/code/justinas/nba-height-and-weight-analysis"
+                },
+                {
+                    "notebook_title": "Predict Used Car prices-LinearRegression",
+                    "author_name": "Yogita Darade",
+                    "votes": 666,
+                    "views": 53555,
+                    "comments_count": 64,
+                    "notebook_url": "https://www.kaggle.com/code/yogidsba/predict-used-car-prices-linearregression"
+                },
+                {
+                    "notebook_title": "Titanic [EDA] + Model Pipeline + Keras NN",
+                    "author_name": "Leonardo Ferreira",
+                    "votes": 745,
+                    "views": 40098,
+                    "comments_count": 77,
+                    "notebook_url": "https://www.kaggle.com/code/kabure/titanic-eda-model-pipeline-keras-nn"
+                },
+                {
+                    "notebook_title": "Beginners_Prediction_Top3%",
+                    "author_name": "Marto93",
+                    "votes": 579,
+                    "views": 25002,
+                    "comments_count": 140,
+                    "notebook_url": "https://www.kaggle.com/code/marto24/beginners-prediction-top3"
+                }
+            ]
+        },
+        "Health Conditions": {
+            "engagement_rate": 12571.269,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Distributions",
+                    "author_name": "Alexis Cook",
+                    "votes": 105983,
+                    "views": 6484,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-distributions"
+                },
+                {
+                    "notebook_title": "Heart Disease - Classifications (Machine Learning)",
+                    "author_name": "Caner Dabakoglu",
+                    "votes": 4030,
+                    "views": 316531,
+                    "comments_count": 126,
+                    "notebook_url": "https://www.kaggle.com/code/cdabakoglu/heart-disease-classifications-machine-learning"
+                },
+                {
+                    "notebook_title": "Skin disease classification",
+                    "author_name": "Smiti Singhal",
+                    "votes": 1316,
+                    "views": 77865,
+                    "comments_count": 15,
+                    "notebook_url": "https://www.kaggle.com/code/smitisinghal/skin-disease-classification"
+                },
+                {
+                    "notebook_title": "COVID-19: Continents in relation to time ",
+                    "author_name": "Michal Bogacz",
+                    "votes": 1083,
+                    "views": 66745,
+                    "comments_count": 307,
+                    "notebook_url": "https://www.kaggle.com/code/michau96/covid-19-continents-in-relation-to-time"
+                },
+                {
+                    "notebook_title": "Intro - chest xray, DICOM, viz, U-nets - full data",
+                    "author_name": "Jesper S\u00f6ren Dramsch",
+                    "votes": 1100,
+                    "views": 68690,
+                    "comments_count": 45,
+                    "notebook_url": "https://www.kaggle.com/code/jesperdramsch/intro-chest-xray-dicom-viz-u-nets-full-data"
+                },
+                {
+                    "notebook_title": "Prediction on Hospital Readmission",
+                    "author_name": "Abhishek Sharma",
+                    "votes": 832,
+                    "views": 91995,
+                    "comments_count": 13,
+                    "notebook_url": "https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission"
+                },
+                {
+                    "notebook_title": "Basic EDA + Data Visualization \ud83e\udde0",
+                    "author_name": "Marco Vasquez E",
+                    "votes": 948,
+                    "views": 55496,
+                    "comments_count": 70,
+                    "notebook_url": "https://www.kaggle.com/code/marcovasquez/basic-eda-data-visualization"
+                },
+                {
+                    "notebook_title": "Detecting Pneumonia in X-Ray Images",
+                    "author_name": "Paul Mooney",
+                    "votes": 683,
+                    "views": 45251,
+                    "comments_count": 24,
+                    "notebook_url": "https://www.kaggle.com/code/paultimothymooney/detecting-pneumonia-in-x-ray-images"
+                },
+                {
+                    "notebook_title": "HuBMAP Pytorch/fast.ai starter",
+                    "author_name": "Iafoss",
+                    "votes": 611,
+                    "views": 22139,
+                    "comments_count": 108,
+                    "notebook_url": "https://www.kaggle.com/code/iafoss/hubmap-pytorch-fast-ai-starter"
+                },
+                {
+                    "notebook_title": "PS4E2 : Visual EDA | LGBM | Obesity Risk",
+                    "author_name": "dee dee",
+                    "votes": 663,
+                    "views": 17273,
+                    "comments_count": 71,
+                    "notebook_url": "https://www.kaggle.com/code/ddosad/ps4e2-visual-eda-lgbm-obesity-risk"
+                }
+            ]
+        },
+        "Cancer": {
+            "engagement_rate": 11997.47909090909,
+            "top_notebooks": [
+                {
+                    "notebook_title": "Exercise: Distributions",
+                    "author_name": "Alexis Cook",
+                    "votes": 105983,
+                    "views": 6484,
+                    "comments_count": 0,
+                    "notebook_url": "https://www.kaggle.com/code/alexisbcook/exercise-distributions"
+                },
+                {
+                    "notebook_title": "Brain Tumor Detection v1.0 || CNN, VGG-16",
+                    "author_name": "def me(x)",
+                    "votes": 4154,
+                    "views": 239651,
+                    "comments_count": 51,
+                    "notebook_url": "https://www.kaggle.com/code/ruslankl/brain-tumor-detection-v1-0-cnn-vgg-16"
+                },
+                {
+                    "notebook_title": "Breast Cancer",
+                    "author_name": "Laura Fink",
+                    "votes": 2533,
+                    "views": 149365,
+                    "comments_count": 55,
+                    "notebook_url": "https://www.kaggle.com/code/allunia/breast-cancer"
+                },
+                {
+                    "notebook_title": "Step wise Approach : CNN Model (77.0344% Accuracy)",
+                    "author_name": "Manu Siddhartha",
+                    "votes": 1514,
+                    "views": 103655,
+                    "comments_count": 58,
+                    "notebook_url": "https://www.kaggle.com/code/sid321axn/step-wise-approach-cnn-model-77-0344-accuracy"
+                },
+                {
+                    "notebook_title": "A complete ML pipeline (Fast.ai)",
+                    "author_name": "Joni Juvonen",
+                    "votes": 1406,
+                    "views": 102710,
+                    "comments_count": 129,
+                    "notebook_url": "https://www.kaggle.com/code/qitvision/a-complete-ml-pipeline-fast-ai"
+                },
+                {
+                    "notebook_title": "3D MRI Brain tumor segmentation || U-NET",
+                    "author_name": "Rastislav.",
+                    "votes": 1670,
+                    "views": 83019,
+                    "comments_count": 54,
+                    "notebook_url": "https://www.kaggle.com/code/rastislav/3d-mri-brain-tumor-segmentation-u-net"
+                },
+                {
+                    "notebook_title": "Brain Tumor MRI Classification | VGG16",
+                    "author_name": "Loai abdalslam",
+                    "votes": 1408,
+                    "views": 93699,
+                    "comments_count": 21,
+                    "notebook_url": "https://www.kaggle.com/code/loaiabdalslam/brain-tumor-mri-classification-vgg16"
+                },
+                {
+                    "notebook_title": "Predict IDC in Breast Cancer Histology Images",
+                    "author_name": "Paul Mooney",
+                    "votes": 859,
+                    "views": 76768,
+                    "comments_count": 17,
+                    "notebook_url": "https://www.kaggle.com/code/paultimothymooney/predict-idc-in-breast-cancer-histology-images"
+                },
+                {
+                    "notebook_title": "Breast Cancer Analysis and Prediction",
+                    "author_name": "Vincent Lugat",
+                    "votes": 791,
+                    "views": 74208,
+                    "comments_count": 54,
+                    "notebook_url": "https://www.kaggle.com/code/vincentlugat/breast-cancer-analysis-and-prediction"
+                },
+                {
+                    "notebook_title": "Breast Cancer Prediction(Accuracy: 98.24%)",
+                    "author_name": "Anandhu H",
+                    "votes": 639,
+                    "views": 30422,
+                    "comments_count": 76,
+                    "notebook_url": "https://www.kaggle.com/code/anandhuh/breast-cancer-prediction-accuracy-98-24"
+                },
+                {
+                    "notebook_title": " RSNA Breast Cancer: EDA & PyTorch Baseline",
+                    "author_name": "Andrada",
+                    "votes": 586,
+                    "views": 27546,
+                    "comments_count": 39,
+                    "notebook_url": "https://www.kaggle.com/code/andradaolteanu/rsna-breast-cancer-eda-pytorch-baseline"
+                }
+            ]
+        }
+    },
+    "Notebooks Per Author (Top 10)": {
+        "Kim Tae Heon": 75,
+        "No author_name": 56,
+        "DanB": 50,
+        "Alexis Cook": 45,
+        "Chris Deotte": 37,
+        "Dr. Alok Yadav at YBI Foundation": 37,
+        "Rachael Tatman": 36,
+        "Ryan Holbrook": 35,
+        "ColinMorris": 24,
+        "Rob Mulla": 21
+    },
+    "Average Engagement Per Author (Top 10)": {
+        "Jesse Mostipak": {
+            "votes": 179359.5,
+            "views": 511577.0,
+            "comments_count": 146.0
+        },
+        "ColinMorris": {
+            "votes": 150671.04166666666,
+            "views": 16458.291666666668,
+            "comments_count": 28.0
+        },
+        "Aleksey Bilogur": {
+            "votes": 100666.05555555556,
+            "views": 77308.0,
+            "comments_count": 31.38888888888889
+        },
+        "Alexis Cook": {
+            "votes": 88608.82222222222,
+            "views": 86420.48888888888,
+            "comments_count": 785.9555555555555
+        },
+        "DanB": {
+            "votes": 77163.68,
+            "views": 119126.3,
+            "comments_count": 55.74
+        },
+        "Kaggle 5 Days of AI": {
+            "votes": 44137.0,
+            "views": 150550.0,
+            "comments_count": 320.09090909090907
+        },
+        "Manav Sehgal": {
+            "votes": 39561.0,
+            "views": 1850191.0,
+            "comments_count": 2619.0
+        },
+        "Ryan Holbrook": {
+            "votes": 32175.4,
+            "views": 26127.428571428572,
+            "comments_count": 20.257142857142856
+        },
+        "Mark McD": {
+            "votes": 26142.18181818182,
+            "views": 114833.18181818182,
+            "comments_count": 124.18181818181819
+        },
+        "Pedro Marcelino, PhD": {
+            "votes": 17387.5,
+            "views": 3900220.5,
+            "comments_count": 1081.5
+        }
+    },
+    "Workload Type Information": {
+        "Balanced/Lightweight Workloads": 1254,
+        "Compute Intensive Workloads": 948,
+        "Data Intensive Workloads": 916,
+        "Generative Workloads": 29
+    }
+}

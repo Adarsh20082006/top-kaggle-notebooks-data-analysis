@@ -1,0 +1,244 @@
+/* =========================================
+   1. GLOBAL RESET & VARIABLES
+   ========================================= */
+:root {
+  --bg-color: #f8fafc;        /* Slate-50 */
+  --card-bg: #ffffff;
+  --text-primary: #0f172a;    /* Slate-900 */
+  --text-secondary: #64748b;  /* Slate-500 */
+  --accent-color: #3b82f6;    /* Blue-500 */
+  --border-color: #e2e8f0;    /* Slate-200 */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius: 16px;
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* =========================================
+   2. MAIN LAYOUT
+   ========================================= */
+.app-container {
+  max-width: 1400px; /* Wide screen support */
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.app-header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 24px;
+}
+
+.app-header h1 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 8px 0;
+  letter-spacing: -0.025em;
+}
+
+.app-header p {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* =========================================
+   3. GRID SYSTEMS
+   ========================================= */
+/* Top Row Metrics */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+/* Standard Charts Grid */
+.charts-grid {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 32px;
+  /* Columns are handled inline in React for specific rows, 
+     but this default handles single column mobile view nicely */
+  grid-template-columns: 1fr; 
+}
+
+@media (min-width: 1024px) {
+  .charts-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* =========================================
+   4. CARD COMPONENT
+   ========================================= */
+.metric-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Contains charts */
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: #cbd5e1;
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.card-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+/* =========================================
+   5. SPECIFIC COMPONENT STYLES
+   ========================================= */
+
+/* --- Language Stats --- */
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.stat-row { display: flex; flex-direction: column; gap: 4px; }
+.stat-info { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 500; }
+.progress-bar-bg { width: 100%; height: 6px; background: #f1f5f9; border-radius: 3px; overflow: hidden; }
+.progress-bar-fill { height: 100%; border-radius: 3px; }
+
+/* --- Tag Cloud --- */
+.tag-container { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag-pill {
+  background: #f8fafc; border: 1px solid var(--border-color);
+  padding: 4px 10px; border-radius: 20px; font-size: 0.8rem;
+  display: flex; align-items: center; gap: 6px; cursor: default;
+  transition: all 0.2s;
+}
+.tag-pill:hover { background: #eff6ff; border-color: #bfdbfe; }
+.tag-count { background: #cbd5e1; color: #fff; padding: 1px 6px; border-radius: 8px; font-size: 0.7rem; font-weight: bold; }
+
+/* --- Data Source List --- */
+.datasource-list {
+  display: flex; flex-direction: column; gap: 14px;
+  overflow-y: auto; padding-right: 6px;
+}
+.datasource-item { display: flex; flex-direction: column; gap: 4px; }
+.ds-info { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 500; }
+.ds-name-group { display: flex; gap: 8px; align-items: center; overflow: hidden; }
+.ds-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
+
+/* --- Topic Explorer (Layout) --- */
+.explorer-layout { display: flex; flex-direction: column; gap: 24px; height: 100%; }
+@media (min-width: 768px) {
+  .explorer-layout { flex-direction: row; }
+  .chart-section { flex: 1; }
+  .details-section { flex: 1.2; padding-left: 20px; border-left: 1px solid var(--border-color); }
+}
+.notebook-item {
+  display: block; padding: 10px; background: #f8fafc; border-radius: 8px;
+  text-decoration: none; border: 1px solid transparent; margin-bottom: 8px;
+}
+.notebook-item:hover { background: #fff; border-color: var(--border-color); box-shadow: var(--shadow-sm); }
+.notebook-title { font-size: 0.9rem; font-weight: 600; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.notebook-author { font-size: 0.75rem; color: var(--text-secondary); }
+
+/* --- Correlation Heatmap --- */
+.heatmap-container { display: flex; justify-content: center; width: 100%; }
+.heatmap-grid { display: grid; width: 100%; max-width: 500px; gap: 4px; }
+.heatmap-cell { display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: 600; }
+.heatmap-cell.data-cell { border-radius: 6px; cursor: pointer; transition: transform 0.2s; height: 80px; position: relative; }
+.heatmap-cell.data-cell:hover { transform: scale(1.05); z-index: 10; box-shadow: var(--shadow-md); }
+/* Tooltip for Heatmap */
+.heatmap-tooltip {
+  visibility: hidden; position: absolute; bottom: 105%; left: 50%; transform: translateX(-50%);
+  background: #1e293b; color: white; padding: 8px 12px; border-radius: 6px; width: 180px; text-align: center; z-index: 20;
+}
+.heatmap-cell.data-cell:hover .heatmap-tooltip { visibility: visible; }
+
+/* --- Engagement Chart (Full Width) --- */
+.engagement-section { margin-top: 10px; }
+.chart-header button { transition: all 0.2s; }
+.chart-header button:hover { background: #fff !important; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+
+/* --- Scrollbars (Clean look for Webkit) --- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Add to src/App.css */
+
+/* Ensures the radar chart centers itself if the screen is huge */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+/* Enhances the Section Headers */
+h2 {
+  font-family: var(--font-family);
+  letter-spacing: -0.02em;
+}
+
+/* Mobile responsive fix for the split rows */
+@media (max-width: 1024px) {
+  .charts-grid[style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important; /* Force single column on tablets/mobile */
+  }
+}
+
+/* --- Language Stats Fix --- */
+.progress-bar-fill { 
+  height: 100%; 
+  border-radius: 3px; 
+  background-color: #3b82f6; /* FALLBACK COLOR ADDED HERE */
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
